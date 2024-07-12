@@ -11,6 +11,7 @@ export class Buttons {
     }
 
     navigationByHeaderCategory = async () => {
+    await this.page.reload();
     await this.services.waitFor("visible");
     await this.services.hover();
     await this.productDiscovery.waitFor("visible");
