@@ -10,14 +10,35 @@ export class Buttons {
 
     }
 
-    navigationByHeaderCategory = async () => {
-    await this.page.reload();
-    await this.services.waitFor("visible");
-    await this.services.hover();
-    await this.productDiscovery.waitFor("visible");
-    await this.productDiscovery.click();
-    await expect(this.page).toHaveURL(/.*product-discovery/);
-};
+
+    async refreshUntilServicesVisible(maxRetries = 5) {
+        let retries = 0;
+        while (retries < maxRetries) {
+          try { 
+            const isVisible = await this.services.isVisible();
+            if (isVisible) {
+              return; 
+            } else {
+              throw new Error('Services element not visible');
+            }
+          } catch (error) {
+            retries++;
+            if (retries === maxRetries) {
+              throw new Error('Services element not found');
+            }
+            await this.page.reload();
+          }
+        }
+      }
+    
+      navigationByHeaderCategory = async () => {
+        await this.refreshUntilServicesVisible();
+        await this.services.hover();
+        await this.productDiscovery.waitFor({ state: 'visible' });
+        await this.productDiscovery.click();
+        await expect(this.page).toHaveURL(/.*product-discovery/);
+      };
+    
 
 navigationByProductsAndServiceSection = async () => {
     await this.softwareDevelopment.click();
