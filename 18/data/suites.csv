@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 12 11:09:28 GMT 2024","Fri Jul 12 11:09:31 GMT 2024","2828","chromium","forms.spec.js","go to Applifting homepage","","","Get In Touch",""
+"passed","Fri Jul 12 11:09:27 GMT 2024","Fri Jul 12 11:09:34 GMT 2024","6672","chromium","navigation.spec.js","go to Applifting homepage","","","Navigation",""
+"passed","Fri Jul 12 11:09:27 GMT 2024","Fri Jul 12 11:09:32 GMT 2024","5105","chromium","elements.spec.js","go to Applifting homepage","","","Elements on the page",""
