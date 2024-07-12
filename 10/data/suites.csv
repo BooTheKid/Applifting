@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jul 12 09:49:13 GMT 2024","Fri Jul 12 09:49:15 GMT 2024","1720","chromium","elements.spec.js","go to Applifting homepage","","","Add a product to cart",""
-"passed","Fri Jul 12 09:00:06 GMT 2024","Fri Jul 12 09:00:08 GMT 2024","1844","chromium","forms.spec.js","Test form Get in Touch on the main page","","","Get In Touch",""
-"failed","Fri Jul 12 09:00:03 GMT 2024","Fri Jul 12 09:27:56 GMT 2024","1672790","chromium","elements.spec.js","Test elements on the main page","","","Add a product to cart",""
-"broken","Fri Jul 12 09:50:21 GMT 2024","Fri Jul 12 09:50:51 GMT 2024","30009","chromium","navigation.spec.js","go to Applifting homepage","","","Navigation",""
-"passed","Thu Jul 11 18:19:39 GMT 2024","Thu Jul 11 18:19:39 GMT 2024","803","chromium","applifting.spec.js","","","","Applifting report",""
-"passed","Fri Jul 12 09:49:16 GMT 2024","Fri Jul 12 09:49:20 GMT 2024","3843","chromium","forms.spec.js","go to Applifting homepage","","","Get In Touch",""
