@@ -16,7 +16,7 @@ I have implemented essential tests for page navigation functionality, form funct
 
 I have configured two types of reports: the first is a Playwright HTML report that sends test steps upon test failures, and the second is an Allure report. The Allure report is set up to provide trend history for the last 10 test runs, execution times, and test suite summaries.
 
-These tests are integrated to run via GitHub Pages and GitHub Actions. You can access the latest Allure report for Applifting in this repository under Actions > Pages Build and Deployment or here [https://github.com/BooTheKid/Applifting/actions/runs/9907278427]
+These tests are integrated to run via GitHub Pages and GitHub Actions. You can access the latest Allure report for Applifting in this repository under Actions > Pages Build and Deployment or [Allure report](https://boothekid.github.io/Applifting/21/)
 
 
 # CI/CD
