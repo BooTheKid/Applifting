@@ -59,7 +59,7 @@ jobs:
         with:
           allure_results: allure-results
           allure_history: gh-pages/allure-history
-          keep_reports: 0
+          keep_reports: 10
 
       - name: Deploy Allure Report to GitHub Pages
         if: always()
