@@ -4,7 +4,7 @@
 [![Allure](https://img.shields.io/badge/Allure-2.29.0-blue)](https://docs.qameta.io/allure/)
 [![Node](https://img.shields.io/badge/Node-20.14.0-green)](https://nodejs.org/en/)
 [![Npm](https://img.shields.io/badge/Npm-10.8.1-green)](https://www.npmjs.com/)
-[![Facker](https://img.shields.io/badge/Npm-10.8.1-green)](https://https://fakerjs.dev/)
+[![Facker](https://img.shields.io/badge/Facke-blue)](https://https://fakerjs.dev/)
 
 # Introduction
 
