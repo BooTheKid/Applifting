@@ -11,9 +11,6 @@ test.describe("go to Applifting homepage", () => {
     
     const button = new Buttons(page);
 
-    // await button.navigationByHeaderCategory();
-
-    // await page.goBack();
     await button.navigationByFooterSection();
 
     await page.goBack();
