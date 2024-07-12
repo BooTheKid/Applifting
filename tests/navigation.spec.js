@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { Buttons } from "../pages/buttons";
 
-test.describe("go to Applifting homepage", () => {
+test.describe("Test navigation on the site", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
   });

@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { Forms } from "../pages/forms";
 
-test.describe("go to Applifting homepage", () => {
+test.describe("Check Forms functionality", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
   });
