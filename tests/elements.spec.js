@@ -7,7 +7,7 @@ test.describe("go to Applifting homepage", () => {
   });
 
 
-  test("Add a product to cart", async ({ page }) => {
+  test("Elements on the page", async ({ page }) => {
     
     const element = new Elements(page);
 
