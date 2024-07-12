@@ -7,7 +7,7 @@ test.describe("Validate Elements on the Main Page", () => {
   });
 
 
-  test("Elements on the page", async ({ page }) => {
+  test("@category: Elements on the page", async ({ page }) => {
     
     const element = new Elements(page);
 

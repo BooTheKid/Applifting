@@ -7,7 +7,7 @@ test.describe("Check Forms functionality", () => {
   });
 
 
-  test("Get In Touch", async ({ page }) => {
+  test("@category: Get In Touch", async ({ page }) => {
     
     const form = new Forms(page);
 

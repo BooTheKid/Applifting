@@ -7,7 +7,7 @@ test.describe("Test navigation on the site", () => {
   });
 
 
-  test("Navigation", async ({ page }) => {
+  test("@category: Navigation", async ({ page }) => {
     
     const button = new Buttons(page);
 
