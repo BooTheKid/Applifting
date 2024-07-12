@@ -13,7 +13,7 @@ export class Buttons {
 
       navigationByHeaderCategory = async () => {
 
-        await this.careers.click();
+        await this.careers.click({ force: true });
         await expect(this.page).toHaveURL(/.*careers/);
       };
     
